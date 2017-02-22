@@ -1,0 +1,138 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Feb 13, 2017, 12:19:42 PM
+    Author     : dippa
+*/
+.navbar .collapse .form-control {
+  width: 700px;
+  border: none; }
+@media (max-width: 1280px) {
+  .navbar .collapse .form-control {
+    width: 600px; } }
+@media (max-width: 1110px) {
+  .navbar .collapse .form-control {
+    width: 500px; } }
+
+.nav-item {
+  margin-left: 2rem; }
+
+@media (max-width: 1280px) {
+  .nav-item {
+    margin-left: 1rem; } }
+@media (max-width: 1110px) {
+  .nav-item {
+    margin-left: 0.5rem; } }
+.carousel .carousel-inner .carousel-item .d-block {
+  width: 100%; }
+@media (max-width: 1280px) {
+  .carousel .carousel-inner .carousel-item img {
+    height: 75%; } }
+@media (max-width: 1280px) and (max-width: 1110px) {
+  .carousel .carousel-inner .carousel-item img {
+    height: 50%; } }
+
+.carousel .carousel-inner .carousel-item .carousel-caption {
+  text-align: left;
+  right: initial;
+  padding-bottom: 15%;
+  color: black; }
+  .carousel .carousel-inner .carousel-item .carousel-caption h1 {
+    margin-bottom: 3%;
+    font-weight: bolder;
+    font-size: 3rem; }
+  .carousel .carousel-inner .carousel-item .carousel-caption p {
+    margin-bottom: 9%;
+    font-size: 1.2rem; }
+  .carousel .carousel-inner .carousel-item .carousel-caption .btn {
+    color: black;
+    border: 2px solid;
+    border-radius: 64px;
+    cursor: pointer;
+    border-color: black; }
+  .carousel .carousel-inner .carousel-item .carousel-caption .btn:hover {
+    color: black;
+    background-color: transparent;
+    border: 2px solid;
+    border-radius: 64px;
+    cursor: pointer;
+    border-color: black; }
+
+.ticket {
+  padding: 0% 1.5% 0% 1.5%;
+  margin: 4% 0% 4% 0%;
+  border: 1px solid;
+  border-color: black;
+  border-radius: 3px; }
+  .ticket .form-group {
+    margin-bottom: .2rem; }
+    .ticket .form-group input {
+      border: none; }
+    .ticket .form-group select {
+      border: none; }
+  .ticket .col-lg-4 {
+    border-right: 1px solid;
+    border-color: black;
+    padding-top: 1%; }
+  .ticket .col-lg-2 {
+    padding-top: 1%; }
+  .ticket button, .ticket button:hover {
+    border-color: #ff5a5f;
+    border: 2px solid;
+    border-radius: 8px;
+    background-color: #ff5a5f;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    padding: 8% 24% 8% 24%;
+    margin-top: 5%;
+    cursor: pointer; }
+  .ticket button:hover {
+    background-color: transparent;
+    color: #ff5a5f;
+    border-color: #ff5a5f; }
+
+.cTitle {
+  margin-bottom: 2%;
+  margin-top: 4%;
+  margin-left: .2rem;
+  color: black; }
+
+.crow1 .card .card-img-top {
+  height: 400px; }
+
+.crow2 .card .card-img-top {
+  height: 250px; }
+
+.crow3 .card .card-img-top {
+  height: 250px; }
+
+.footer {
+  border-top: 1px solid;
+  border-color: black;
+  margin-top: 5%;
+  padding-top: 3%;
+  padding-bottom: 3%; }
+  .footer .footer-top ul {
+    color: black;
+    padding-left: 0;
+    list-style: none;
+    font-size: .9em; }
+  .footer .footer-bottom {
+    margin-top: 2%;
+    padding-top: 2%;
+    border-top: 1px solid;
+    border-color: black;
+    color: black; }
+    .footer .footer-bottom a {
+      text-align: center;
+      color: black;
+      font-size: .9em; }
+    .footer .footer-bottom .social a {
+      padding-left: 10px;
+      padding-right: 10px; }
+
+/*# sourceMappingURL=style.css.map */

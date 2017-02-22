@@ -1,0 +1,220 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Feb 13, 2017, 12:19:42 PM
+    Author     : dippa
+*/
+$mdWidth: 1280px;
+$smWidth: 1110px;
+$bc: black; //background color
+$fc: black; //font color
+
+// Search input
+.navbar{
+    .collapse{
+        .form-control{
+            width: 700px;
+            height: 5px;
+            border: none;
+        }
+            @media(max-width: $mdWidth){
+                .form-control{
+                    width: 600px;
+                }
+            }
+            @media(max-width: $smWidth){
+                .form-control{
+                    width: 500px;
+                }
+            }
+    }
+}
+
+//navigation link margin
+.nav-item{
+    margin-left: 2rem;
+}
+
+@media(max-width: $mdWidth){
+    .nav-item{
+        margin-left: 1rem;
+    }
+}
+
+@media(max-width:$smWidth){
+    .nav-item{
+        margin-left: 0.5rem;
+    }
+}
+
+
+
+// Carousel
+.carousel{
+    .carousel-inner{
+        .carousel-item{
+            .d-block{
+                width: 100%;                
+            }
+            @media(max-width:$mdWidth){
+                img{
+                    height: 75%;
+                }
+                @media(max-width:$smWidth){
+                    img{
+                        height: 50%;
+                    }
+                }
+            }
+            .carousel-caption{
+                text-align: left;
+                right: initial;
+                padding-bottom: 15%;
+                color: $fc;
+                h1{
+                    margin-bottom: 3%;
+                    font-weight: bolder;
+                    font-size: 3rem;
+                }
+                p{
+                    margin-bottom: 9%;
+                    font-size:1.2rem;
+                }
+                .btn{
+                    //color: #484848;
+                    color: $fc;
+                    border: 2px solid;
+                    border-radius: 64px;
+                    cursor: pointer;
+                    //border-color: rgba(72, 72, 72, 0.3)
+                    border-color: $bc;
+                }
+                .btn:hover{
+                    //color: #484848;
+                    color: $fc;
+                    background-color: transparent;
+                    border: 2px solid;
+                    border-radius: 64px;
+                    cursor: pointer;
+                    //border-color: rgba(72, 72, 72, 0.3);
+                    border-color: $bc;
+                }
+            }
+        }
+    }
+}
+
+//Ticket Booking
+.ticket{
+    padding: 0% 1.5% 0% 1.5%;
+    margin: 4% 0% 4% 0%;
+    border: 1px solid;
+    border-color: $bc;
+    border-radius: 3px;
+    .form-group{
+        margin-bottom: .2rem;
+        input{
+            border: none;
+        }
+        select{
+            border: none;
+        }
+    }
+    .col-lg-4{
+        border-right: 1px solid;
+        border-color: $bc;
+        padding-top: 1%;
+    }
+    .col-lg-2{
+        padding-top: 1%;
+    }
+    
+    button{
+        border-color: #ff5a5f;
+        border: 2px solid;
+        border-radius: 8px;
+        background-color: #ff5a5f;
+        font-weight: bold;
+        color: #fff;
+        text-align: center;
+        padding: 8% 24% 8% 24%;
+        margin-top:5%;
+        cursor: pointer;
+    }
+    button:hover{
+        @extend button;
+        background-color: transparent;
+        color:#ff5a5f;
+        border-color: #ff5a5f;
+    }
+}
+
+//Content Title
+.cTitle{
+    margin-bottom: 2%;
+    margin-top: 4%;
+    margin-left: .2rem;
+    color: $fc;    
+}
+
+//Content Card
+.crow1{
+    .card{
+        .card-img-top{
+            height:400px;
+        }
+    }
+}
+.crow2{
+    .card{
+        .card-img-top{
+            height:250px;
+        }
+    }
+}
+.crow3{
+    .card{
+        .card-img-top{
+            height:250px;
+        }
+    }
+}
+
+
+//Footer
+.footer{
+    border-top: 1px solid;
+    border-color: $bc;
+    margin-top: 5%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    .footer-top{
+        ul{
+                color: $bc;
+                padding-left: 0;
+                list-style:none;
+                font-size: .9em;
+        }
+    }
+    .footer-bottom{
+        margin-top:2%;
+        padding-top: 2%;
+        border-top:1px solid;
+        border-color:$bc;
+        color: $bc;
+        a{
+            text-align: center;
+            color: $fc;
+            font-size: .9em;            
+        }
+        .social{
+            a{
+                padding-left: 10px;
+                padding-right: 10px
+            }
+        }
+    }
+}
