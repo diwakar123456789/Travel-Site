@@ -9,7 +9,9 @@ and open the template in the editor.
 */
 .navbar .collapse .form-control {
   width: 700px;
-  border: none; }
+  height: 5px;
+  border: none;
+  background-color: #f7f7f7; }
 @media (max-width: 1280px) {
   .navbar .collapse .form-control {
     width: 600px; } }
@@ -26,40 +28,50 @@ and open the template in the editor.
 @media (max-width: 1110px) {
   .nav-item {
     margin-left: 0.5rem; } }
-.carousel .carousel-inner .carousel-item .d-block {
-  width: 100%; }
-@media (max-width: 1280px) {
-  .carousel .carousel-inner .carousel-item img {
-    height: 75%; } }
+.carousel {
+  /*    @media(max-width: 768px){
+          margin-top:7%;        
+      }
+      @media(min-width: 576px){
+          margin-top: 9%;
+      }
+      @media(max-width: 576px){
+          margin-top: 13%;
+      }*/ }
+  .carousel .carousel-inner .carousel-item .d-block {
+    width: 100%; }
+  @media (max-width: 1280px) {
+    .carousel .carousel-inner .carousel-item img {
+      height: 75%; } }
 @media (max-width: 1280px) and (max-width: 1110px) {
   .carousel .carousel-inner .carousel-item img {
     height: 50%; } }
 
-.carousel .carousel-inner .carousel-item .carousel-caption {
-  text-align: left;
-  right: initial;
-  padding-bottom: 15%;
-  color: black; }
-  .carousel .carousel-inner .carousel-item .carousel-caption h1 {
-    margin-bottom: 3%;
-    font-weight: bolder;
-    font-size: 3rem; }
-  .carousel .carousel-inner .carousel-item .carousel-caption p {
-    margin-bottom: 9%;
-    font-size: 1.2rem; }
-  .carousel .carousel-inner .carousel-item .carousel-caption .btn {
-    color: black;
-    border: 2px solid;
-    border-radius: 64px;
-    cursor: pointer;
-    border-color: black; }
-  .carousel .carousel-inner .carousel-item .carousel-caption .btn:hover {
-    color: black;
-    background-color: transparent;
-    border: 2px solid;
-    border-radius: 64px;
-    cursor: pointer;
-    border-color: black; }
+  .carousel .carousel-inner .carousel-item .carousel-caption {
+    text-align: left;
+    right: initial;
+    padding-bottom: 15%;
+    color: #fff; }
+    .carousel .carousel-inner .carousel-item .carousel-caption h1 {
+      margin-bottom: 3%;
+      font-weight: bolder;
+      font-size: 3rem; }
+    .carousel .carousel-inner .carousel-item .carousel-caption p {
+      margin-bottom: 9%;
+      font-size: 1.2rem; }
+    .carousel .carousel-inner .carousel-item .carousel-caption .btn {
+      color: #fff;
+      border: 2px solid;
+      border-radius: 64px;
+      cursor: pointer;
+      border-color: #fff; }
+    .carousel .carousel-inner .carousel-item .carousel-caption .btn:hover {
+      color: black;
+      background-color: transparent;
+      border: 2px solid;
+      border-radius: 64px;
+      cursor: pointer;
+      border-color: black; }
 
 .ticket {
   padding: 0% 1.5% 0% 1.5%;
@@ -67,16 +79,27 @@ and open the template in the editor.
   border: 1px solid;
   border-color: black;
   border-radius: 3px; }
+  @media (max-width: 992px) {
+    .ticket {
+      border: hidden; } }
   .ticket .form-group {
     margin-bottom: .2rem; }
     .ticket .form-group input {
       border: none; }
     .ticket .form-group select {
       border: none; }
+    @media (max-width: 992px) {
+      .ticket .form-group input, .ticket .form-group select {
+        border: 1px solid; }
+      .ticket .form-group input {
+        margin-bottom: 2%; } }
   .ticket .col-lg-4 {
     border-right: 1px solid;
     border-color: black;
     padding-top: 1%; }
+    @media (max-width: 992px) {
+      .ticket .col-lg-4 {
+        border-right: none; } }
   .ticket .col-lg-2 {
     padding-top: 1%; }
   .ticket button, .ticket button:hover {
@@ -90,6 +113,13 @@ and open the template in the editor.
     padding: 8% 24% 8% 24%;
     margin-top: 5%;
     cursor: pointer; }
+    @media (max-width: 992px) {
+      .ticket button, .ticket button:hover {
+        width: 100%;
+        height: 100%;
+        padding: 2% 0 2% 0;
+        border-radius: 5px;
+        margin-top: 0; } }
   .ticket button:hover {
     background-color: transparent;
     color: #ff5a5f;
@@ -101,11 +131,23 @@ and open the template in the editor.
   margin-left: .2rem;
   color: black; }
 
+@media (max-width: 992px) {
+  .card {
+    margin-bottom: 10%; } }
 .crow1 .card .card-img-top {
   height: 400px; }
 
 .crow2 .card .card-img-top {
   height: 250px; }
+  @media (max-width: 576px) {
+    .crow2 .card .card-img-top {
+      height: 175px; } }
+  @media (max-width: 768px) {
+    .crow2 .card .card-img-top {
+      height: 150px; } }
+  @media (min-width: 1200px) {
+    .crow2 .card .card-img-top {
+      height: 175px; } }
 
 .crow3 .card .card-img-top {
   height: 250px; }
@@ -116,11 +158,17 @@ and open the template in the editor.
   margin-top: 5%;
   padding-top: 3%;
   padding-bottom: 3%; }
+  @media (max-width: 768px) {
+    .footer {
+      margin-top: 0;
+      border-top: none; } }
   .footer .footer-top ul {
     color: black;
     padding-left: 0;
     list-style: none;
     font-size: .9em; }
+    .footer .footer-top ul li a {
+      color: black; }
   .footer .footer-bottom {
     margin-top: 2%;
     padding-top: 2%;
@@ -134,5 +182,11 @@ and open the template in the editor.
     .footer .footer-bottom .social a {
       padding-left: 10px;
       padding-right: 10px; }
+      .footer .footer-bottom .social a .fa-facebook:hover {
+        color: #3b5998; }
+      .footer .footer-bottom .social a .fa-twitter:hover {
+        color: #326ada; }
+      .footer .footer-bottom .social a .fa-instagram:hover {
+        color: #c3328c; }
 
 /*# sourceMappingURL=style.css.map */
