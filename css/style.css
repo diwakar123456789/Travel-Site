@@ -66,18 +66,18 @@ and open the template in the editor.
       cursor: pointer;
       border-color: #fff; }
     .carousel .carousel-inner .carousel-item .carousel-caption .btn:hover {
-      color: black;
+      color: #484848;
       background-color: transparent;
       border: 2px solid;
       border-radius: 64px;
       cursor: pointer;
-      border-color: black; }
+      border-color: rgba(0, 0, 0, 0.125); }
 
 .ticket {
   padding: 0% 1.5% 0% 1.5%;
   margin: 4% 0% 4% 0%;
   border: 1px solid;
-  border-color: black;
+  border-color: rgba(0, 0, 0, 0.125);
   border-radius: 3px; }
   @media (max-width: 992px) {
     .ticket {
@@ -95,7 +95,7 @@ and open the template in the editor.
         margin-bottom: 2%; } }
   .ticket .col-lg-4 {
     border-right: 1px solid;
-    border-color: black;
+    border-color: rgba(0, 0, 0, 0.125);
     padding-top: 1%; }
     @media (max-width: 992px) {
       .ticket .col-lg-4 {
@@ -129,7 +129,10 @@ and open the template in the editor.
   margin-bottom: 2%;
   margin-top: 4%;
   margin-left: .2rem;
-  color: black; }
+  color: #484848; }
+
+.card {
+  border-radius: 0px !important; }
 
 @media (max-width: 992px) {
   .card {
@@ -154,7 +157,7 @@ and open the template in the editor.
 
 .footer {
   border-top: 1px solid;
-  border-color: black;
+  border-color: rgba(0, 0, 0, 0.125);
   margin-top: 5%;
   padding-top: 3%;
   padding-bottom: 3%; }
@@ -163,21 +166,21 @@ and open the template in the editor.
       margin-top: 0;
       border-top: none; } }
   .footer .footer-top ul {
-    color: black;
+    color: rgba(0, 0, 0, 0.125);
     padding-left: 0;
     list-style: none;
     font-size: .9em; }
     .footer .footer-top ul li a {
-      color: black; }
+      color: #484848; }
   .footer .footer-bottom {
     margin-top: 2%;
     padding-top: 2%;
     border-top: 1px solid;
-    border-color: black;
-    color: black; }
+    border-color: rgba(0, 0, 0, 0.125);
+    color: #484848; }
     .footer .footer-bottom a {
       text-align: center;
-      color: black;
+      color: #484848;
       font-size: .9em; }
     .footer .footer-bottom .social a {
       padding-left: 10px;
@@ -188,5 +191,83 @@ and open the template in the editor.
         color: #326ada; }
       .footer .footer-bottom .social a .fa-instagram:hover {
         color: #c3328c; }
+
+.sign-in-up .facebook {
+  background-color: #3B5998;
+  border-color: #3B5998; }
+.sign-in-up .google {
+  background-color: #fff;
+  color: #484848;
+  border-color: #c4c4c4; }
+.sign-in-up button, .sign-in-up .ticket button:hover, .ticket .sign-in-up button:hover {
+  width: 100%;
+  cursor: pointer; }
+.sign-in-up input {
+  width: 100%;
+  height: 64px; }
+
+.subnav {
+  padding: 0em; }
+  .subnav ul {
+    margin-bottom: 0; }
+    .subnav ul li {
+      margin-left: 1rem;
+      float: left; }
+      .subnav ul li a span {
+        font-size: .9em;
+        color: #bbb;
+        padding: .4rem 0rem; }
+      .subnav ul li a .active {
+        border-bottom: 4px solid;
+        border-color: #bbb;
+        color: #fff; }
+
+.left-panel .card .card-img-top {
+  /*height: 190px;*/ }
+.left-panel .card .pf-details ul margin
+li .fa {
+  font-size: 24px; }
+
+.img-responsive {
+  width: 100%;
+  height: auto; }
+
+.cstm-card .card-header {
+  background-color: #edefed !important; }
+.cstm-card .card-block {
+  padding: 20px; }
+
+.space-top-4 {
+  margin-top: 24px; }
+
+.space-4 {
+  margin-bottom: 24px; }
+
+.space-2 {
+  margin-bottom: 12px; }
+
+.space-top-2 {
+  margin-top: 12px; }
+
+.space-1 {
+  margin-bottom: 6px; }
+
+.space-top-1 {
+  margin-top: 6px; }
+
+.list-unstyled {
+  margin-bottom: initial; }
+
+.br-bottom {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125); }
+
+.sec-color li a {
+  color: #008489; }
+
+.section-divider {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border: 0;
+  border-top: 1px solid #dce0e0; }
 
 /*# sourceMappingURL=style.css.map */

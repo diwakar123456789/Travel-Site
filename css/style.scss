@@ -9,8 +9,9 @@ and open the template in the editor.
 */
 $mdWidth: 1280px;
 $smWidth: 1110px;
-$bc: black; //background color
-$fc: black; //font color
+$bc: rgba(0,0,0,.125); //background color
+$fc: #484848; //font color
+$fcs: #008489;
 
 // Search input
 .navbar{
@@ -194,9 +195,12 @@ $fc: black; //font color
 }
 
 //Content Card
+.card{
+    border-radius: 0px! important;
+}
 @media(max-width:992px){
     .card{
-        margin-bottom: 10%;
+        margin-bottom: 10%;        
     }
 }
 .crow1{
@@ -261,7 +265,7 @@ $fc: black; //font color
         padding-top: 2%;
         border-top:1px solid;
         border-color:$bc;
-        color: $bc;
+        color: $fc;
         a{
             text-align: center;
             color: $fc;
@@ -283,4 +287,123 @@ $fc: black; //font color
             }
         }
     }
+}
+
+//Sign up or Login
+    .sign-in-up{
+        .facebook{
+            background-color: #3B5998;
+            border-color: #3B5998;
+        }
+        .google{
+            background-color: #fff;
+            color: $fc;
+            border-color: #c4c4c4;
+        }
+        button{
+            width: 100%;
+            cursor: pointer;
+        }
+        input{
+            width: 100%;
+            height: 64px
+        }
+    }
+    
+    
+//subnav
+.subnav{
+    padding: 0em;
+    ul{
+        margin-bottom: 0;
+        li{
+            margin-left: 1rem;
+            float:left;
+            a{
+                span{
+                    font-size:.9em;
+                    color: #bbb;
+                    padding: .4rem 0rem;
+                    
+                }
+                .active{
+                        border-bottom: 4px solid;
+                        border-color: #bbb;
+                        color: #fff;
+                }
+            }
+        }
+    }
+}
+
+// user_profile left panel
+.left-panel{
+    .card{
+        .card-img-top{
+            /*height: 190px;*/
+        }
+        .pf-details{
+            ul{
+                margin
+                li{
+                    .fa{
+                            font-size: 24px;
+                        }
+                }
+            }
+        }
+    }
+}
+
+//extra
+.img-responsive{
+    width: 100%;
+    height: auto;
+}
+
+.cstm-card{
+    .card-header{
+        background-color: #edefed! important;
+    }
+    .card-block{
+        padding: 20px;
+    }
+}
+.space-top-4{
+    margin-top: 24px;
+}
+.space-4{
+    margin-bottom: 24px;
+}
+.space-2{
+    margin-bottom: 12px;
+}
+.space-top-2{
+    margin-top:12px
+}
+.space-1{
+    margin-bottom: 6px
+}
+.space-top-1{
+    margin-top:6px
+}
+
+.list-unstyled{
+    margin-bottom: initial
+}
+.br-bottom{
+    border-bottom: 1px solid rgba(0,0,0,.125);
+}
+.sec-color{
+    li{
+        a{
+            color: $fcs;
+        }
+    }
+}
+.section-divider{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: 0;
+    border-top: 1px solid #dce0e0;
 }
