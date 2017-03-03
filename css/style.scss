@@ -290,25 +290,43 @@ $fcs: #008489;
 }
 
 //Sign up or Login
-    .sign-in-up{
-        .facebook{
-            background-color: #3B5998;
-            border-color: #3B5998;
-        }
-        .google{
-            background-color: #fff;
-            color: $fc;
-            border-color: #c4c4c4;
-        }
-        button{
-            width: 100%;
-            cursor: pointer;
-        }
-        input{
-            width: 100%;
-            height: 64px
-        }
+.container-responsive-cstm{
+    @media(min-width: 1200px){
+        width: 950px;
     }
+}
+
+.sign-in-up{
+    .facebook{
+        background-color: #3B5998;
+        border-color: #3B5998;
+        @extend .form-button;
+    }
+    .google{
+        background-color: #fff;
+        color: $fc;
+        border-color: #c4c4c4;
+        @extend .form-button;
+    }
+    button{
+        width: 100%;
+        cursor: pointer;
+        @extend .form-button;
+    }
+    input{
+        width: 100%;
+        height: 64px
+    }
+}
+.social-icon{
+    vertical-align: middle;
+    font-size: larger! important;
+    position: relative;
+    left: -90px;
+    @media(max-width: 992px){
+        left: -50px;
+    }
+}
     
     
 //subnav
@@ -375,6 +393,9 @@ $fcs: #008489;
 .space-4{
     margin-bottom: 24px;
 }
+space-8{
+    margin-bottom: 48px;
+}
 .space-2{
     margin-bottom: 12px;
 }
@@ -405,5 +426,50 @@ $fcs: #008489;
     margin-top: 15px;
     margin-bottom: 15px;
     border: 0;
+    
     border-top: 1px solid #dce0e0;
+}
+.or-separator{
+    margin-top: -10px;
+    margin-bottom: 18px;
+    border: 0;
+    
+    border-top: 1px solid #dce0e0;
+}
+.or-text{
+    padding: 4px 8px;
+    background-color: #fff;
+}
+
+.panel{
+    @media(min-width: 768px){
+        width: 50%;
+        margin-left: 25%;
+        margin-right: 25%;
+    }
+}
+.panel-body{
+    padding: 20px;
+}
+
+.setwidth90{
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.form-button{
+    padding: 20px 0px;
+}
+
+.cstm-btn{
+        float: right!important;
+    padding: 3px 10px;
+    border: 1px solid red;
+    color: red;
+    border-radius: 5px
+}
+.cstm-btn:hover{
+    @extend .cstm-btn;
+    text-decoration: none;
 }

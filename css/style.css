@@ -192,6 +192,10 @@ and open the template in the editor.
       .footer .footer-bottom .social a .fa-instagram:hover {
         color: #c3328c; }
 
+@media (min-width: 1200px) {
+  .container-responsive-cstm {
+    width: 950px; } }
+
 .sign-in-up .facebook {
   background-color: #3B5998;
   border-color: #3B5998; }
@@ -205,6 +209,15 @@ and open the template in the editor.
 .sign-in-up input {
   width: 100%;
   height: 64px; }
+
+.social-icon {
+  vertical-align: middle;
+  font-size: larger !important;
+  position: relative;
+  left: -90px; }
+  @media (max-width: 992px) {
+    .social-icon {
+      left: -50px; } }
 
 .subnav {
   padding: 0em; }
@@ -243,6 +256,9 @@ li .fa {
 .space-4 {
   margin-bottom: 24px; }
 
+space-8 {
+  margin-bottom: 48px; }
+
 .space-2 {
   margin-bottom: 12px; }
 
@@ -269,5 +285,42 @@ li .fa {
   margin-bottom: 15px;
   border: 0;
   border-top: 1px solid #dce0e0; }
+
+.or-separator {
+  margin-top: -10px;
+  margin-bottom: 18px;
+  border: 0;
+  border-top: 1px solid #dce0e0; }
+
+.or-text {
+  padding: 4px 8px;
+  background-color: #fff; }
+
+@media (min-width: 768px) {
+  .panel {
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%; } }
+
+.panel-body {
+  padding: 20px; }
+
+.setwidth90 {
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%; }
+
+.form-button, .sign-in-up .facebook, .sign-in-up .google, .sign-in-up button, .sign-in-up .ticket button:hover, .ticket .sign-in-up button:hover {
+  padding: 20px 0px; }
+
+.cstm-btn, .cstm-btn:hover {
+  float: right !important;
+  padding: 3px 10px;
+  border: 1px solid red;
+  color: red;
+  border-radius: 5px; }
+
+.cstm-btn:hover {
+  text-decoration: none; }
 
 /*# sourceMappingURL=style.css.map */
