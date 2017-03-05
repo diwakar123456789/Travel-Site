@@ -98,13 +98,15 @@ and open the template in the editor.
                 <div class="row cTitle"><h5>Most popular experiences</h5></div>
                 <div class="row justify-content-center crow1">
                     <div class="col-lg-3 col-md-5 col-sm-6 col-10">
-                        <div class="card">
-                        <img class="card-img-top" src="https://a0.muscache.com/im/pictures/f26e3064-fc1f-46e5-a06c-2d9325bccf5c.jpg?aki_policy=poster" alt="Card image cap">
-                        <div class="card-block">
-                            <p class="card-text">Some quick example text to build on the card title.</p>
-                            <p class="card-text">5 Reviews</p>
-                        </div>
-                      </div>
+                        <a href="destination_blog.php">
+                            <div class="card">
+                                <img class="card-img-top" src="https://a0.muscache.com/im/pictures/f26e3064-fc1f-46e5-a06c-2d9325bccf5c.jpg?aki_policy=poster" alt="Card image cap">
+                                <div class="card-block">
+                                    <p class="card-text">Some quick example text to build on the card title.</p>
+                                    <p class="card-text">5 Reviews</p>
+                                </div>
+                            </div>
+                        </a>
                     </div>
                     <div class="col-lg-3 col-md-5 col-sm-6 col-10">
                         <div class="card">
