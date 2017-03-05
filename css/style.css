@@ -132,7 +132,8 @@ and open the template in the editor.
   color: #484848; }
 
 .card {
-  border-radius: 0px !important; }
+  border-radius: 0px !important;
+  color: #484848 !important; }
 
 @media (max-width: 992px) {
   .card {
@@ -241,6 +242,15 @@ and open the template in the editor.
 li .fa {
   font-size: 24px; }
 
+.blog h2 {
+  font-weight: 700; }
+.blog span {
+  font-size: 1.2rem;
+  line-height: 16px;
+  padding-bottom: 10px; }
+.blog p {
+  text-align: justify; }
+
 .img-responsive {
   width: 100%;
   height: auto; }
@@ -271,11 +281,20 @@ space-8 {
 .space-top-1 {
   margin-top: 6px; }
 
+.expand-top-2 {
+  padding-top: 12px; }
+
+.expand-2 {
+  padding-bottom: 12px; }
+
 .list-unstyled {
   margin-bottom: initial; }
 
 .br-bottom {
   border-bottom: 1px solid rgba(0, 0, 0, 0.125); }
+
+.br-top {
+  border-top: 1px solid rgba(0, 0, 0, 0.125); }
 
 .sec-color li a {
   color: #008489; }
@@ -322,5 +341,16 @@ space-8 {
 
 .cstm-btn:hover {
   text-decoration: none; }
+
+.full-width {
+  width: 100%; }
+
+.all-initial {
+  margin: initial;
+  padding: initial;
+  border: initial; }
+
+.secondary-color {
+  color: #008489; }
 
 /*# sourceMappingURL=style.css.map */
