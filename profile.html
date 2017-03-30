@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Travel Boy</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="images/favicon.png" rel="icon" type="image/png">
+        <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    <body>
+        <nav class="navbar navbar-toggleable-md navbar-light bg-faded">
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <a class="navbar-brand" href="index.php.html">Navbar</a>       
+            
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <form class="form-inline my-2 my-lg-0 hidden-md-down">
+                    <input class="form-control mr-sm-2" type="text" placeholder="Search">
+                </form>
+                <ul class="navbar-nav mr-auto mt-2 mt-md-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Become a Host</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Help</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="login.html">Sign Up</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Log In</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <main>
+            <nav class="subnav navbar navbar-toggleable-md navbar-inverse bg-inverse">
+                <ul class="container">
+                    <li class="nav-item " style="margin-left: 0rem">
+                        <a class="nav-link" href="user_profile.html" style="padding-left: 0rem"><span class="">Dashboard</span><span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><span class="">Inbox</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><span class="">Your Listings</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><span class="">Your Trips</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><span class="active">Profile</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><span class="">Account</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><span class="">Travel Credit</span></a>
+                    </li>                    
+                </ul>
+            </nav>
+            <div class="container space-top-4">
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="sidenav">
+                            <ul class="list-unstyled">
+                                <li class="">
+                                    <a class="primary-color" href="#">Edit Profile</a>                                    
+                                </li>
+                                <li>
+                                    <a class="primary-color" href="#">Photos and VIdeos</a>                                    
+                                </li>
+                                <li>
+                                    <a class="primary-color" href="#">Trust and Verification</a>                                    
+                                </li>
+                                <li>
+                                    <a class="primary-color" href="#">Reviews</a>                                    
+                                </li>
+                                <li>
+                                    <a class="primary-color" href="#">References</a>                                    
+                                </li>
+                                
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-9">
+                        <div class="panel-border">
+                            <div class="panel-header expand-top-2 expand-2 px-2">Required</div>
+                            <div class="panel-body">
+                                <div class="form-group row">
+                                    <label for="first_name" class="col-2 col-form-label text-right font-weight-bold">First Name</label>
+                                    <div class="col-10">
+                                        <input class="form-control" type="text" value="Diwakar" id="first_name" placeholder="first name">
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label for="last_name" class="col-2 col-form-label text-right font-weight-bold">Last Name</label>
+                                    <div class="col-10">
+                                        <input class="form-control" type="text" value="Pandey" id="last_name" placeholder="last name">
+                                        <small id="fileHelp" class="form-text text-muted">Your public profile only shows your first name. When you request a booking, your host will see your first and last name.</small>
+                                    </div>                                    
+                                </div>
+                                <div class="form-group row">
+                                    <label for="gender" class="col-2 col-form-label text-right font-weight-bold">I Am <span class="fa fa-lock"></span></label>
+                                    <div class="col-10">
+                                        <select class="form-control width-auto" id="gender">
+                                            <option>Gender</option>
+                                            <option>Male</option>
+                                            <option>Female</option>
+                                            <option>Other</option>                                            
+                                        </select>
+                                    </div>                                    
+                                </div>                                
+                                <div class="form-group row">
+                                    <label for="birthdate" class="col-2 col-form-label text-right font-weight-bold">Birth Date <span class="fa fa-lock"></span></label>
+                                    <div class="col-10 d-inherit">
+                                        <select class="form-control width-auto" id="birthdate">
+                                            <option>October</option>
+                                        </select>
+                                        <select class="form-control width-auto ml-1" id="birthdate">
+                                            <option>2</option>
+                                        </select>
+                                        <select class="form-control width-auto ml-1" id="birthdate">
+                                            <option>1995</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-10 push-2">
+                                        <small id="fileHelp" class="form-text text-muted">Your public profile only shows your first name. When you request a booking, your host will see your first and last name.</small>
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label for="email" class="col-2 col-form-label text-right font-weight-bold">Email Address</label>
+                                    <div class="col-10">
+                                        <input class="form-control" type="email" value="dippandey11@hotmail.com" id="email" placeholder="example@domain.com">
+                                        <small id="fileHelp" class="form-text text-muted">We won’t share your private email address with other Airbnb users.</small>
+                                    </div>                                    
+                                </div>
+                                <div class="form-group row">
+                                    <label for="textarea" class="col-2 col-form-label text-right font-weight-bold">Describe Yourself</label>
+                                    <div class="col-10">
+                                        <textarea class="form-control" id="textarea" rows="5"></textarea>
+                                        <small id="fileHelp" class="form-text text-muted">Airbnb is built on relationships. Help other people get to know you.</small>
+                                    </div>                                    
+                                </div>
+                            </div>
+                        </div>
+                        <button type="submit" class="button btn btn-danger btn-lg space-top-4" style="cursor: pointer" >Save</button>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer class="footer">
+            <div class="container">
+                <div class="row footer-top hidden-sm-down">
+                    <div class="col-lg-4 col-md-4">
+                        <h5>Nature Visit</h5>
+                        <ul>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Careers</a></li>
+                            <li><a href="#">Press</a></li>
+                            <li><a href="#">Policies</a></li>
+                            <li><a href="#">Help</a></li>
+                            <li><a href="#">Diversity & Belonging</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-4 col-md-4">
+                        <h5>Discover</h5>
+                        <ul>
+                            <li><a href="#">Trust & Safety</a></li>
+                            <li><a href="#">Travel Credit</a></li>
+                            <li><a href="#">Gift Cards</a></li>
+                            <li><a href="#">Travel Citizen</a></li>
+                            <li><a href="#">Business Travel</a></li>
+                            <li><a href="#">Guidebooks</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-4 col-md-4">
+                        <h5>Hosting</h5>
+                        <ul>
+                            <li><a href="#">Why Host</a></li>
+                            <li><a href="#">Refer Hosts</a></li>
+                            <li><a href="#">Hospitality</a></li>
+                            <li><a href="#">Responsible Hosting</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row footer-bottom justify-content-center">
+                    <div class="col-lg-4 col-8">
+                        <a href="#">Logo</a>
+                        <span>&copy Nature Visit, Private.</span>
+                    </div>
+                    <div class="col-lg-3 col-6"></div>
+                    <div class="col-lg-5 social">
+                        <a href="#">Terms & Privacy</a>
+                        <a href="#">Site Map</a>
+                        <a href="#"><span class="fa fa-facebook"></span></a>
+                        <a href="#"><span class="fa fa-twitter"></span></a>
+                        <a href="#"><span class="fa fa-instagram"></span></a>
+                    </div>
+                </div>
+            </div>
+        </footer>                                                       <!-- Footer -->
+        <script src="https://use.fontawesome.com/3eac1dcbb6.js"></script>
+        <script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+        <script src="js/bootstrap.min.js" type="text/javascript"></script>
+        <script src="js/style.js" type="text/javascript"></script>
+    </body>
+</html>
