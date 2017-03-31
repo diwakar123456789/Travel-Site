@@ -477,6 +477,15 @@ space-8{
     padding: 20px;
 }
 
+.panel-header{
+    background-color: $bc
+}
+
+.panel-border{
+    border: 1px solid;
+    border-color: $bc
+}
+
 .setwidth90{
     width: 90%;
     margin-left: 5%;
@@ -501,11 +510,20 @@ space-8{
 .full-width{
     width: 100%;
 }
+.width-auto{
+    width: auto
+}
 .all-initial{
     margin: initial;
     padding: initial;
     border: initial;
 }
+.d-inherit{
+    display: inherit;
+}
 .secondary-color{
     color:$fcs
+}
+.primary-color{
+    color:$fc
 }
